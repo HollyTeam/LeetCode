@@ -9,4 +9,4 @@
 | # | Title | Python | Js | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
 | 2 | [Add Two Numbers]() | [Python]() | [Js]() | Medium |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python]() | [Js](https://github.com/HollyTeam/Leetcode/blob/master/Js/two-sum.js) | Easy |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python]() | [Js](https://github.com/HollyTeam/Leetcode/blob/master/Js/Two%20Sum/two-sum.js) | Easy |

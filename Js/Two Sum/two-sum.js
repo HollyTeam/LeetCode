@@ -11,10 +11,9 @@ var twoSum = function(nums, target) {
             diff = target-inp;
         if(diff in dict)
             return [dict[diff], i]
-    
+
         dict[inp] = i;
     }
 
-    return null;
-
+    return null
 };
