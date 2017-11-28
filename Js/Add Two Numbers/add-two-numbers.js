@@ -16,9 +16,10 @@ var addTwoNumbers = function(l1, l2) {
     const h = head
 
     while(l1 || l2){
-    	head = head.next = new ListNode(0)
-        head.val = ((l1?l1.val:0 || 0)+(l2?l2.val:0 || 0)+carry) % 10
-        carry = Number.parseInt(((l1?l1.val:0 || 0)+(l2?l2.val:0 || 0)+carry) / 10)
+        head = head.next = new ListNode(0)
+        let addVal = ((l1?l1.val:0 || 0)+(l2?l2.val:0 || 0)+carry)
+        head.val = addVal % 10
+        carry = Number.parseInt(addVal / 10)
         l1 = l1?l1.next:null
         l2 = l2?l2.next:null
     }
